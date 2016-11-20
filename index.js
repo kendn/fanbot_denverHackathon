@@ -20,13 +20,14 @@ var states = {
 var nodes = [{ "node": 1, "message": "I mean.. only if you are a raiders fan", "yes": 2, "no": 3 },
              { "node": 2, "message": "Better than Cam... haha", "yes": 4, "no": 5 },
              { "node": 3, "message": "Shut the hell up you big ding dong, you like the broncos effer", "yes": 6, "no": 7 },
-             { "node": 4, "message": "Besides the happy feels from Christmas shopping and holiday festivities, we are going to hear some whining and crying from many children, including Tom Brady when we play them that day", "yes": 8, "no": 9 },
+             { "node": 4, "message": "Well, on the 27th, we play our division rivals, the Chiefs. And on Decemeber 4th, we play the Jaguars, we all know how that games gonna turn out. I'm banking on us picking off Blake Bortles at least 5 times", "yes": 8, "no": 9 },
              { "node": 5, "message": "cough cough, Cause I got a really big team	And they need some really big rings They need some really nice things Better be comin' with no strings Better be comin' with no strings We need some really nice things We need some really big rings	I got a really big team ", "yes": 10, "no": 11 },
              { "node": 6, "message": "Do you want to work with animals", "yes": 12, "no": 13 },
              { "node": 7, "message": "Are you active", "yes": 14, "no": 15 },
 
 // Answers & descriptions
-             { "node": 8, "message": "You big ding dong. Are you shitting me? Tom Brady is two and seven agaisnt us in Denver. Everytime Tommy boy comes to Denver we knock the air out of him like he knocked the air out of his balls", "yes": 16, "no": 17 },
+             
+	     { "node": 8, "message": "Besides the happy feels from Christmas shopping and holiday festivities, we are going to hear some whining and crying from many children, including Tom Brady when we play them that day": 16, "no": 17 },
              { "node": 9, "message": "Teacher", "yes": 0, "no": 0, "description": "In education, teachers facilitate student learning, often in a school or academy or perhaps in another environment such as outdoors."},
              { "node": 10, "message": "Sales person", "yes": 0, "no": 0 , "description": "A salesman is someone who works in sales, with the main function of selling products or services to others."},
              { "node": 11, "message": "Artist", "yes": 0, "no": 0 , "description": "An artist is a person engaged in one or more of any of a broad spectrum of activities related to creating art, practicing the arts, and, or demonstrating an art."},
@@ -34,15 +35,16 @@ var nodes = [{ "node": 1, "message": "I mean.. only if you are a raiders fan", "
              { "node": 13, "message": "Software engineer", "yes": 0, "no": 0 , "description": "A software engineer is a person who applies the principles of software engineering to the design, development, maintenance, testing, and evaluation of the software and systems that make computers or anything containing software work."},
              { "node": 14, "message": "Security Guard", "yes": 0, "no": 0 , "description": "A security guard is a private person who is paid to protect an organization's assets from various hazards such as criminal activity, by utilizing preventative measures. "},
              { "node": 15, "message": "Lighthouse keeper", "yes": 0, "no": 0 , "description": "A lighthouse keeper is the person responsible for tending and caring for a lighthouse, particularly the light and lens in the days when oil lamps and clockwork mechanisms were used."},
-			 { "node": 16, "message": "Oh my god! What a crazy game! Did you see my boy Justin Simmons block that extra point and Will parks running it into the endzone!? Why are people saying he stepped out of bounds? If you ask me, they're just haters!", "yes": 18, "no": 19 },
-			 { "node": 17, "message": "poop", "yes": 0, "no": 0, "description": "poop" },
-			 { "node": 18, "message": "Oh you know, all the unlikeable teams like the Panthers, Patriots, Seahawks, and especially those salty Saints fans. Oh and don't forget about all the other NFL teams too", "yes": 20, "no": 21 },
-			 { "node": 19, "message": "poop", "yes": 0, "no": 0, "description": "poop" },
-			 { "node": 20, "message": "No I'm not!.. The Broncos are the best, the undisputed world champions. I bleed orange and blue. Don't mess with our no fly zone... or else Aqib Talib will.. jab your eyes out", "yes": 22, "no": 23 },
-			 { "node": 21, "message": "poop", "yes": 0, "no": 0, "description": "poop" },
-			 { "node": 22, "message": "Oh yes, Russell is such a great athlete, role model, and inspiration. He is what people should strive to be. His dedication and hard work speak for itself. Russell is a once in a generation talent. This is why I love Russell... Wilson. Ha... ha... ha... Just kidding, give it up for Russell Okung for coming out today.", "yes": 0, "no": 0, "description": "" },
-			 { "node": 23, "message": "poop", "yes": 0, "no": 0, "description": "poop" },
-			 
+	     { "node": 16, "message": "You big ding dong. Are you shitting me? Tom Brady is two and seven agaisnt us in Denver. Everytime Tommy boy comes to Denver we knock the air out of him like he knocked the air out of his balls", "yes": 18, "no": 19 },
+	     { "node": 17, "message": "poop", "yes": 0, "no": 0, "description": "poop" },
+	     { "node": 18, "message": "Oh you know, all the unlikeable teams like the Panthers, Patriots, Seahawks, and especially those salty Saints fans. Oh and don't forget about all the other NFL teams too", "yes": 20, "no": 21 },
+	     { "node": 19, "message": "poop", "yes": 0, "no": 0, "description": "poop" },
+	     { "node": 20, "message": "Oh my god! What a crazy game! Did you see my boy Justin Simmons block that extra point and Will parks running it into the endzone!? Why are people saying he stepped out of bounds? If you ask me, they're just haters!", "yes": 22, "no": 23 },
+	     { "node": 21, "message": "poop", "yes": 0, "no": 0, "description": "poop" },
+	     { "node": 22, "message": "No I'm not!.. The Broncos are the best, the undisputed world champions. I bleed orange and blue. Don't mess with our no fly zone... or else Aqib Talib will.. jab your eyes out", "yes": 24, "no": 25 },
+	     { "node": 23, "message": "poop", "yes": 0, "no": 0, "description": "poop" },
+	     { "node": 24, "message": "Oh yes, Russell is such a great athlete, role model, and inspiration. He is what people should strive to be. His dedication and hard work speak for itself. Russell is a once in a generation talent. This is why I love Russell... Wilson. Ha... ha... ha... Just kidding, give it up for Russell Okung for coming out today.", "yes": 0, "no": 0, "description": "" },
+	     { "node": 23, "message": "poop", "yes": 0, "no": 0, "description": "poop" },	 
 ];
 
 // this is used for keep track of visted nodes when we test for loops in the tree
