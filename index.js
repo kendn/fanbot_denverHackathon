@@ -27,7 +27,7 @@ var nodes = [{ "node": 1, "message": "I mean.. only if you are a raiders fan", "
 
 // Answers & descriptions
              
-	     { "node": 8, "message": "Besides the happy feels from Christmas shopping and holiday festivities, we are going to hear some whining and crying from many children, including Tom Brady when we play them that day": 16, "no": 17 },
+	     { "node": 8, "message": "Besides the happy feels from Christmas shopping and holiday festivities, we are going to hear some whining and crying from many children, including Tom Brady when we play them that day", "yes": 16, "no": 17 },
              { "node": 9, "message": "Teacher", "yes": 0, "no": 0, "description": "In education, teachers facilitate student learning, often in a school or academy or perhaps in another environment such as outdoors."},
              { "node": 10, "message": "Sales person", "yes": 0, "no": 0 , "description": "A salesman is someone who works in sales, with the main function of selling products or services to others."},
              { "node": 11, "message": "Artist", "yes": 0, "no": 0 , "description": "An artist is a person engaged in one or more of any of a broad spectrum of activities related to creating art, practicing the arts, and, or demonstrating an art."},
@@ -37,14 +37,14 @@ var nodes = [{ "node": 1, "message": "I mean.. only if you are a raiders fan", "
              { "node": 15, "message": "Lighthouse keeper", "yes": 0, "no": 0 , "description": "A lighthouse keeper is the person responsible for tending and caring for a lighthouse, particularly the light and lens in the days when oil lamps and clockwork mechanisms were used."},
 	     { "node": 16, "message": "You big ding dong. Are you shitting me? Tom Brady is two and seven agaisnt us in Denver. Everytime Tommy boy comes to Denver we knock the air out of him like he knocked the air out of his balls", "yes": 18, "no": 19 },
 	     { "node": 17, "message": "poop", "yes": 0, "no": 0, "description": "poop" },
-	     { "node": 18, "message": "Oh you know, all the unlikeable teams like the Panthers, Patriots, Seahawks, and especially those salty Saints fans. Oh and don't forget about all the other NFL teams too", "yes": 20, "no": 21 },
+	     { "node": 18, "message": "Oh my god! What a crazy game! Did you see my boy Justin Simmons block that extra point and Will parks running it into the endzone!? Why are people saying he stepped out of bounds? If you ask me, they're just haters!", "yes": 20, "no": 21 },
 	     { "node": 19, "message": "poop", "yes": 0, "no": 0, "description": "poop" },
-	     { "node": 20, "message": "Oh my god! What a crazy game! Did you see my boy Justin Simmons block that extra point and Will parks running it into the endzone!? Why are people saying he stepped out of bounds? If you ask me, they're just haters!", "yes": 22, "no": 23 },
+	     { "node": 20, "message": "Oh you know, all the unlikeable teams like the Panthers, Patriots, Seahawks, and especially those salty Saints fans. Oh and don't forget about all the other NFL teams too", "yes": 22, "no": 23 },
 	     { "node": 21, "message": "poop", "yes": 0, "no": 0, "description": "poop" },
 	     { "node": 22, "message": "No I'm not!.. The Broncos are the best, the undisputed world champions. I bleed orange and blue. Don't mess with our no fly zone... or else Aqib Talib will.. jab your eyes out", "yes": 24, "no": 25 },
 	     { "node": 23, "message": "poop", "yes": 0, "no": 0, "description": "poop" },
 	     { "node": 24, "message": "Oh yes, Russell is such a great athlete, role model, and inspiration. He is what people should strive to be. His dedication and hard work speak for itself. Russell is a once in a generation talent. This is why I love Russell... Wilson. Ha... ha... ha... Just kidding, give it up for Russell Okung for coming out today.", "yes": 0, "no": 0, "description": "" },
-	     { "node": 23, "message": "poop", "yes": 0, "no": 0, "description": "poop" },	 
+	     { "node": 25, "message": "poop", "yes": 0, "no": 0, "description": "poop" },	 
 ];
 
 // this is used for keep track of visted nodes when we test for loops in the tree
